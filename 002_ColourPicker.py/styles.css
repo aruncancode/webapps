@@ -2,16 +2,6 @@
     text-align: center;
 }
 
-.picker{
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 720px;
-    height: 180px;
-}
-
 #display{
     margin-top : 15px;
     width: 100%;
