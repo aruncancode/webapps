@@ -34,12 +34,13 @@
             let colour = 'rgb(' + red + ',' + green + ',' + blue + ')';
             display.style.background = colour
             document.getElementById("colour_mix").innerHTML = "#" + colour;
+            document.getElementById("colour_mix").style.color = colour;
 
         }
 
-        document.getElementById("red").addEventListener('click', changeColour);
-        document.getElementById("blue").addEventListener('click', changeColour);
-        document.getElementById("green").addEventListener('click', changeColour);
+        document.getElementById("red").addEventListener('mousemove', changeColour);
+        document.getElementById("blue").addEventListener('mousemove', changeColour);
+        document.getElementById("green").addEventListener('mousemove', changeColour);
     </script>
 
 </body>
