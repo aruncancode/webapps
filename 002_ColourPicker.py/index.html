@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <!-- <script type="text/javascript" src="script.js"></script> -->
     <title>Colour Picker</title>
 
 
@@ -13,7 +12,7 @@
 
 <body>
     <div id="title">
-        <h1>Pick the rainbow!<div id="colour_mix"></div>
+        <h1>Pick a colour!<div id="colour_mix"></div>
         </h1>
     </div>
 
@@ -25,22 +24,7 @@
 
     </div>
 
-    <script>
-        function changeColour() {
-            let display = document.getElementById("display");
-            let red = document.getElementById('red').value;
-            let green = document.getElementById('green').value;
-            let blue = document.getElementById('blue').value;
-            let colour = 'rgb(' + red + ',' + green + ',' + blue + ')';
-            display.style.background = colour
-            document.getElementById("colour_mix").innerHTML = "#" + colour;
-
-        }
-
-        document.getElementById("red").addEventListener('click', changeColour);
-        document.getElementById("blue").addEventListener('click', changeColour);
-        document.getElementById("green").addEventListener('click', changeColour);
-    </script>
+    <script type="text/javascript" src="script.js"></script>
 
 </body>
 
