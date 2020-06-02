@@ -13,9 +13,9 @@ class App extends Component {
 		todos: [],
 	};
 
-	componentDidMount() {
-		axios.get("todos.html").then((res) => this.setState({ todos: res.data }));
-	}
+	// componentDidMount() {
+	// 	axios.get("todos.html").then((res) => this.setState({ todos: res.data }));
+	// }
 
 	//Toggle Complete
 	markComplete = (id) => {
